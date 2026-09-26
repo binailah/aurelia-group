@@ -1,0 +1,76 @@
+// Signature House — shared foundational menu across Mayfair, Dubai Palm, Paris and Singapore Marina.
+// Restaurant-level regional adaptations are stored on each restaurant record (see restaurants.js).
+export default {
+  name: 'Signature House',
+  intro: 'All Signature Houses share this foundational menu. Regional adaptations are noted on each restaurant\u2019s page.',
+  sections: [
+    { title: 'Signature Starters', items: [
+      { name: 'Oscietra Caviar 30g', desc: 'Cultured butter blini, crème fraîche, chive', price: '$145' },
+      { name: 'Oscietra Caviar 50g', desc: 'Full service, mother-of-pearl spoon, all accompaniments', price: '$230' },
+      { name: 'Bluefin Tuna Tartare', desc: 'Ponzu gel, yuzu crème, sesame tuile, shiso', price: '$65' },
+      { name: 'Wagyu Carpaccio A5', desc: 'White truffle oil, aged Parmesan, micro rocket, capers', price: '$85' },
+      { name: 'Grilled King Prawns', desc: 'Bisque butter, garlic confit, sourdough crisps', price: '$72' },
+      { name: 'Foie Gras Torchon', desc: 'Brioche, fig-port jam, Sauternes gelée', price: '$95' },
+      { name: 'Hand-Dived Scallops', desc: 'Cauliflower purée, crispy pancetta, golden raisin, truffle', price: '$88' },
+      { name: 'Signature Bread Service', desc: 'Sourdough, cultured butter, smoked sea salt', price: 'Complimentary' },
+    ]},
+    { title: 'Salads', items: [
+      { name: 'Burrata & Heirloom Tomato', desc: 'Aged balsamic, Ligurian olive oil, fresh basil', price: '$42' },
+      { name: 'Lobster Salad', desc: 'Baby gem, tarragon mayo, chive oil, coral', price: '$78' },
+      { name: 'Citrus Avocado Salad', desc: 'Pink grapefruit, watercress, champagne-hazelnut dressing', price: '$36' },
+      { name: 'Caesar Reinvented', desc: 'Romaine hearts, anchovy cream, Parmesan crisp, quail egg', price: '$44' },
+    ]},
+    { title: 'Soups', items: [
+      { name: 'Truffle Mushroom Velouté', desc: 'Black truffle cream, cep oil, chive, hazelnut', price: '$48' },
+      { name: 'Lobster Bisque', desc: 'Cognac, tarragon, cream, coral oil', price: '$56' },
+    ]},
+    { title: 'Main Courses', items: [
+      { name: 'Wagyu Ribeye A5 250g', desc: 'Bone marrow jus, pommes soufflés, watercress', price: '$195' },
+      { name: 'Wagyu Ribeye A5 400g', desc: 'As above — sharing cut', price: '$310' },
+      { name: 'Miso Black Cod', desc: 'Yuzu butter, dashi broth, daikon, pickled ginger', price: '$115' },
+      { name: 'Saffron Lobster Pasta', desc: 'Hand-cut tagliolini, cognac bisque, lobster tail', price: '$145' },
+      { name: 'Lamb Saddle', desc: 'Smoked aubergine purée, harissa, pomegranate jus', price: '$135' },
+      { name: 'Wild Sea Bass', desc: 'Champagne velouté, samphire, brown butter capers', price: '$125' },
+      { name: 'Black Truffle Risotto', desc: 'Aged Parmesan 36-month, chive, Périgord truffle shavings', price: '$98' },
+    ]},
+    { title: 'Sides', items: [
+      { name: 'Pommes Purée Robuchon', desc: 'Butter, cream, chive', price: '$22' },
+      { name: 'Pommes Soufflés', desc: 'Classic French technique', price: '$24' },
+      { name: 'Sautéed Wild Mushrooms', desc: 'Garlic, thyme, parsley', price: '$22' },
+      { name: 'Truffle Mac & Cheese', desc: 'Aged Gruyère, black truffle', price: '$28' },
+      { name: 'Seasonal Greens', desc: 'Herb oil, lemon', price: '$18' },
+      { name: 'French Fries', desc: 'House seasoning, Aurelia aioli', price: '$16' },
+    ]},
+    { title: 'Desserts & Pastry', items: [
+      { name: 'Signature Date Cake', desc: 'Toffee sauce, clotted cream ice cream, crystallised dates', price: '$32' },
+      { name: 'Pistachio Tart', desc: 'Iranian pistachio cream, raspberry coulis, gold leaf', price: '$34' },
+      { name: 'Vanilla Mille-Feuille', desc: 'Madagascan vanilla, caramelised puff pastry, praline', price: '$30' },
+      { name: 'Chocolate Fondant', desc: 'Valrhona 72%, salted caramel heart, vanilla ice cream', price: '$36' },
+      { name: 'Cheese Trolley', desc: '5 cheeses, fig compote, walnut bread, quince', price: '$55' },
+      { name: 'Petit Fours', desc: 'Salted caramel bonbon, pistachio macaron, dark truffle', price: '$18' },
+    ]},
+    { title: 'Premium Mocktails', items: [
+      { name: 'The Aurelia', desc: 'White grape, yuzu, elderflower, sparkling water', price: '$22' },
+      { name: 'Cedar Garden', desc: 'Cucumber, mint, lime, soda, fig shrub', price: '$20' },
+      { name: 'Golden Hour', desc: 'Mango, turmeric, ginger, coconut water', price: '$18' },
+      { name: 'Bergamot Bloom', desc: 'Earl Grey syrup, lemon, honey, tonic', price: '$20' },
+      { name: 'Midnight Fig', desc: 'Fig, blackcurrant, rosemary, sparkling water', price: '$22' },
+    ]},
+    { title: 'Teas & Coffee', items: [
+      { name: 'Single-Origin Pour Over', desc: 'Rotating: Ethiopia Yirgacheffe / Yemen Mocha', price: '$18' },
+      { name: 'Japanese Matcha Ceremony', desc: 'Ceremonial grade, traditional preparation', price: '$22' },
+      { name: 'Rare Teas Selection', desc: 'Silver Needle, Da Hong Pao, Gyokuro, Bai Mu Dan', price: '$16–$28' },
+      { name: 'Espresso / Macchiato', desc: 'House blend, La Marzocco', price: '$8' },
+    ]},
+    { title: 'Wine & Champagne', items: [
+      { name: 'Krug Grande Cuvée NV', desc: 'Reims, Champagne', price: '$380 / bottle' },
+      { name: 'Dom Pérignon 2015', desc: 'Épernay, Champagne', price: '$450 / bottle' },
+      { name: 'Pétrus 2012', desc: 'Pomerol, Bordeaux', price: '$4,800 / bottle' },
+      { name: 'Opus One 2019', desc: 'Napa Valley, California', price: '$680 / bottle' },
+      { name: 'Puligny-Montrachet, Louis Jadot 2019', desc: 'Burgundy', price: '$220 / bottle' },
+      { name: 'Sassicaia 2018', desc: 'Bolgheri, Tuscany', price: '$520 / bottle' },
+      { name: 'House Champagne by glass', desc: 'Billecart-Salmon Blanc de Blancs', price: '$38 / glass' },
+      { name: 'Wine Pairing Menu (6 courses)', desc: 'Head Sommelier selection', price: '$195 / person' },
+    ]},
+  ],
+}
