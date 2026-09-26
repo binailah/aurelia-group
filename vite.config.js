@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 // Use '/' if deploying to a custom domain or user/organization root site.
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: '/aurelia-group/',
 })
